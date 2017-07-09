@@ -4,46 +4,44 @@
 
 *The purpose of Quizdom is to create a Jeopordy like gameshow that will allow multiple players to interact at the same time using various technologies.* 
 
-*This document will explain to you the basic flow of the project*
-
+*This document will explain to you the basic flow of the project a.k.a Quizdom as well as technical details for how the project will be built*
 
 ## Business Objectives
 
-*Business objectives should offer the details for why the project is important.  Outline the goals of the project int he sense of the value it will bring and set expectations.  Keep your objectives measurable to avoid confusion in whether or not they have been met.*
+*Quizdom is important because it will allow people all over the internet to play a game that also involves learning various subjects that can be used for fun or for a more formal learning environment.*
 
 ## Background
 
-*Provide any relevant background information regarding why this project is being initiated*
+*Quizdom is being initiated to fulfil the final group project for Coder Camps*
 
 ## Scope
 
-*The Scope section should outline what is and is not included as part of this project.  Oftentimes we make assumptions of features or functionality that is not necessarily required.  This is especially useful in a phased approach or when working on an existing system.*
+*Quizdom includes the ability for users to view pre-defined questions as well as create their own questions.  It also allows for advanced features such as editing their questions and keep track of their game metrics*
 
 ## Functional requirements
-
-*This is where most of the detail should reside.  describe all of the required capabilities of the system in detail.  It is helpful to articulate features in terms of user capabilities.  Keep in mind that the features will be designed and developed off of these descriptions, so if you leave anything up to interpretation, you run the risk of the results not meeting your expectations.  You can also assume capabilities that are not mentioned here will not be included in the project, no matter how common or obvious they are.  You may want to break our subsections for each major feature to make the document more organized.*
-
+*Quizdom consists of many moving parts and many different technologies. To start with the entire project is based inside of a .net framework.  The front end is all HTML5, JAVASCRIPT and ANGULAR JS WITH GOOGLE MATERIALIZE. The backend consists of c# with ASP .NET CORE.  SignalR is being used to interact with Websockets technology. Identity server is being used to track user logins which tie a unique user id to all the gaming aspects.  The database is using MySQL which contains many different tables including the user table, game table, quiz/questions table, categories table and players table. 
+  The Gameboard consists of a 6X6 grid that is headed by categories that have 2 questions from each of the difficulty levels.  The questions are pulled from the database in random order.*
 
 ## Personnel requirements
 
-*In this section you may want to describe the composition of the team, do you need dedicated development?  how many people?  How about design or QA?  Think about what personnel is required to make this project a success, and place your recommendations here.*
+*The team will consist of two people. One to work on the front end and one to work on the back end. Additional people could be added if necessary. The skill set of each team member must be substantial.*
 
 ## Delivery schedule
 
-*It's often helpful to break a project out into phases or milestones.  In this section list out any logical checkpoints where you would like to see the project demonstrated to ensure that expectations are being met.  Describe the phase, and the functional requirements required for completion.*
+*The project must be delivered in 6 weeks.  The first week consists of white boarding each individual step in the game. The Second section which covers weeks 2 and 3 is the quiz table and basic management of questions. The final phase of the project is the implementation of the game components.*
 
 ## Other requirements
 
-*This section serves as a catch-all for any details that may not fit in other areas.  things like device or browser support, considerations for accessibility or inspiration for style.  Offer additional context here to ensure the project meets your vision*
+* The site will be responsive meaning it will work on any browser and any screen resolution. Materialize will give it a state of the art feel!*
 
 ## Assumptions
 
-*Oftentimes we are reliant on outside sources such as frameworks to be used, or services that our system will depend on.  In this section you should provide detail on any assumptions that you have made, such as the system being reliant on the availability of the Google Maps API.*
+*Quizdom will be self reliant therefore eliminating the need to depend on any third party services besides the hosting environment which will be determined by the best priced hosting platform.*
 
 ## Limitations
 
-*Identify any limitations in terms of time, personnel, technical details, or other things that limit the scope, time, and cost of the project being discussed.*
+*The cost of the project will depend on how much data in the database. Due to a very small budget the hosting plan will be limited in space and access speed.*
 
 ## Risks
 
-*Every project has inherent risks that may cause delay or even failure of a project.  You must identify this risks to show you know what they are, and also identify ways in which you would mitigate those risks.*
+*The main risk is involving websockets technology which could push our project out of our time constraints. Other constraints involve hosting platform.*
