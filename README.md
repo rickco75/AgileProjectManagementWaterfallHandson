@@ -1,8 +1,11 @@
-# Title
+# Quizdom
 
 ## Executive Summary
 
-*Your executive summary should be pretty brief, under 3 paragraphs and should provide a concise summary of the purpose and contents of the rest of the document.  Explain to the reader what they will get from this document.*
+*The purpose of Quizdom is to create a Jeopordy like gameshow that will allow multiple players to interact at the same time using various technologies.* 
+
+*This document will explain to you the basic flow of the project*
+
 
 ## Business Objectives
 
